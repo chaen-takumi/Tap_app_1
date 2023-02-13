@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         when (event?.action) {
             MotionEvent.ACTION_DOWN -> iv.setImageResource(R.drawable.cat02)
             MotionEvent.ACTION_MOVE -> iv.setImageResource(R.drawable.cat03)
-            MotionEvent.ACTION_UP -> iv.setImageResource(R.drawable.cat03)
+            MotionEvent.ACTION_UP -> iv.setImageResource(R.drawable.cat01)
 
         }
 
